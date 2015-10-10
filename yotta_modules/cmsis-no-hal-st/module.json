@@ -1,0 +1,29 @@
+{
+  "name": "cmsis-no-hal-st",
+  "version": "0.1.1",
+  "description": "CMSIS-CORE _WITHOUT_ any peripheral library or HAL for ST devices",
+  "keywords": [
+    "HAL",
+    "no-HAL",
+    "cmsis",
+    "st"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-no-hal-st.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-no-hal-st",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {},
+  "targetDependencies": {
+    "stm32f429zi": {
+      "cmsis-no-hal-stm32f429xi": "^0.1.0"
+    }
+  }
+}

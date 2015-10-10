@@ -1,0 +1,34 @@
+{
+  "name": "cmsis-no-hal-stm32f429xi",
+  "version": "0.1.0",
+  "description": "CMSIS-CORE _WITHOUT_ any peripheral library or HAL for STM32F429xI chips",
+  "keywords": [
+    "stm32f429zi",
+    "stm32f429xi",
+    "stm32f429",
+    "stm32f4",
+    "stm32",
+    "st",
+    "HAL",
+    "no-HAL",
+    "cmsis"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-no-hal-stm32f429xi.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-no-hal-stm32f429xi",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "extraIncludes": [
+    "cmsis-no-hal-stm32f429xi"
+  ],
+  "dependencies": {
+    "cmsis-core": ">=0.3.0"
+  }
+}
